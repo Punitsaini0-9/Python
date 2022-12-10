@@ -10,20 +10,20 @@ while True:
     print("3 = Multiply")
     print("4 = Divide")
 
-    x = int(input("Choise an oprators(1-4):\n")) #choise oprators
+    x = int(input("Choise an oprators(1-4):\n")) # choise oprators
 
-    if x==1:
+    if x==1: # Addition
         a = int(input("Enter no. A\n"))
         b = int(input("Enter no. B\n"))
 
-        if a == 56 and b == 9:
+        if a == 56 and b == 9: # Faulty value code in addition
             print("sum = 77")
 
         else:
             c = a+b
             print("Sum = ",c)
 
-    elif x == 2:
+    elif x == 2: # Substraction
         a = int(input("Enter no. A\n"))
         b = int(input("Enter no. B\n"))
 
@@ -31,22 +31,22 @@ while True:
 
         print("Difference = ",c)
 
-    elif x == 3:
+    elif x == 3: # Multiply
         a = int(input("Enter no. A\n"))
         b = int(input("Enter no. B\n"))
 
-        if a == 43 and b == 3:
+        if a == 43 and b == 3: # Faulty value code in multiply
             print("Product = 555")
 
         else:
             c = a*b
             print("Product = ",c)
 
-    elif x == 4:
+    elif x == 4: # Divide
         a = int(input("Enter no. A\n"))
         b = int(input("Enter no. B\n"))
 
-        if a == 56 and b == 6:
+        if a == 56 and b == 6: # Faulty value code in divide 
             print("Quotient = 4")
 
         else:
@@ -54,4 +54,4 @@ while True:
             print("Quotient = ",c)
 
     else:
-        print("You entered wrong optators please try again")
+        print("You entered wrong optators please try again") 
